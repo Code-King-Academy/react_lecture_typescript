@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StyledButton from "../components/StyledButton";
+import StyledButton from "../../components/StyledButton";
 
 const heavyComputationFunction = (data: number[]) => {
   return data.filter((item) => item > 5);

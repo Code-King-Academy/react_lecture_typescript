@@ -1,10 +1,21 @@
 import hook from "./hook.png";
 
 const Hook = () => {
+  //  리액트(React)에서 훅(Hook)은 함수형 컴포넌트에서 리액트의 상태 관리 및
+  //  생명주기 기능을 "연결(hook into)"할 수 있게 하는 특별한 함수입니다. 리액트
+  //  16.8 버전에서 도입된 훅은 클래스 컴포넌트에서만 사용할 수 있었던 다양한
+  //  기능들을 함수형 컴포넌트에서도 사용할 수 있게 해줍니다.
+
+  // 상태관리
+  // 생명주기 기능
+  // 커스텀 로직 재사용
+  // 렌더링과 분리된 로직
+
   return (
     <div className="App-header">
       <h1>리엑트 훅이란?</h1>
       <img src={hook} alt="hook" style={{ width: 250 }} />
+
       <p>고리? 매달기 위함(?) </p>
       <h3 style={{ width: "80%" }}>
         Hooks let you use different React features from your components. <br />
